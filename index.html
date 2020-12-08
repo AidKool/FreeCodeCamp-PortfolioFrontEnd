@@ -31,7 +31,30 @@
         <div class="project" id="landing_page"></div>
       </div>
     </section>
-    <section id="contact"></section>
+    <section id="contact">
+      <header>Drop me a line</header>
+      <form action="" method="POST">
+        <div class="form-container">
+          <label for="name" id="name-label">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+          <label for="email" id="email-label">Email</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+
+          <label for="message" id="message-label">Message:</label>
+          <textarea name="message" id="message" required></textarea>
+
+          <div class="btn-container">
+            <input class="btn" type="submit" id="submit" value="Submit">
+          </div>
+        </div>
+      </form>
+      <div class="github-button-container">
+        <a class="github-button" href="https://github.com/aidkool" data-size="large"
+          aria-label="Follow @aidkool on GitHub">Follow
+          @aidkool</a>
+      </div>
+    </section>
   </div>
 </body>
 
