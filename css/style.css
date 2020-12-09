@@ -5,7 +5,7 @@ nav {
   justify-content: flex-end;
   width: 100%;
   position: fixed;
-  background: red;
+  background: #BF4345;
 }
 
 nav ul {
@@ -22,20 +22,21 @@ nav li {
 nav a {
   display: block;
   text-decoration: none;
-  color: #000000;
+  color: #303235;
   padding: 1rem;
   font-size: 1.2rem;
 }
 
 nav a:hover {
-  background: green;
-  color: white;
+  background: #45567D;
+  color: #FFFFFF;
+  ;
 }
 
 #welcome-section {
   height: 100vh;
   width: 100%;
-  background: blue;
+  background: #303235;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,10 +45,12 @@ nav a:hover {
 
 #welcome-section h1 {
   font-size: 2.75rem;
+  color: #FFFFFF;
 }
 
 #welcome-section p {
   font-size: 1.5rem;
+  color: #BF4345;
 }
 
 #projects {
@@ -55,12 +58,13 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: chartreuse;
+  background: #45567D;
   width: 100%;
   padding: 70px 0;
 }
 
 #projects header, #contact header {
+  color: #FFFFFF;
   text-align: center;
   padding: 0;
   padding-bottom: 45px;
@@ -75,7 +79,7 @@ nav a:hover {
 }
 
 .project {
-  border: 1px solid #000000;
+  border: 5px solid #000000;
   border-radius: 50%;
 }
 
@@ -106,7 +110,7 @@ nav a:hover {
 }
 
 #contact {
-  background-color: #ffffff;
+  background: #303235;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -128,11 +132,15 @@ nav a:hover {
   width: auto;
 }
 
+.form-container label {
+  color: #FFFFFF;
+}
+
 input[type="text"], input[type="email"] {
   line-height: 1.4rem;
 }
 
-label#message-label {
+#message-label {
   align-self: flex-start;
 }
 
@@ -150,12 +158,12 @@ textarea {
 }
 
 .btn {
-  background-color: #76D7C4;
+  background-color: #45567D;
   border-radius: 5px;
   outline: 0 !important;
   border: 0 !important;
   box-shadow: none !important;
-  color: #000000;
+  color: #FFFFFF;
   font-size: 1rem;
   height: 35px;
   margin: 0 auto;
