@@ -179,6 +179,10 @@ textarea {
   width: 90px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .github-button-container {
   margin-top: 30px;
   text-align: center;
